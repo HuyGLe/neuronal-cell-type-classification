@@ -1,1 +1,3 @@
-# neuronal-cell-type-classification
+## Machine Learning for Cell Type Matching
+
+This github contains the relevant result files and code for the paper "Machine Learning for Neuronal Cell Type Classification from Single Nucleus RNA Sequencing Data". The original human middle temporal gyrus (MTG) snRNA-seq dataset was retrieved from the [Allen Brain Map](https://portal.brain-map.org/atlases-and-data/rnaseq) portal and the two scripts (R and Python) in the "Pre-Processing" folder were used to preprocess the original dataset to filter for housekeeping genes and partition into training, validation and test datasets. The "Model-Scripts" folder contains the scripts used to generate the models and make predictions using the three datasets - the results of which are placed under the "results" folder for each machine learning method.
